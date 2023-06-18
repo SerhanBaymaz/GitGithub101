@@ -17,3 +17,12 @@
 `Ctrl+Shift  c||v` teriminalde kopyala yapıştır işlemleri yapar.
 
 `pwd` : o anki konumunuzu söyler.
+
+
+
+# GIT nedir
+
+![GitNedir](https://github.com/SerhanBaymaz/GitGithub101/assets/102352030/40d9656a-30b1-48e5-8905-7ebb9e87e1cb)
+
+
+
