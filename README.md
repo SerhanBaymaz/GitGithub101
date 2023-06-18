@@ -49,3 +49,22 @@
 **Git Reset:** Commitleri geri almak veya iptal etmek için kullanılır.
 
 **Git Reset --hard:** Depoyu belirli bir commit'e sıfırlar, o commit'ten sonraki tüm değişiklikleri siler.
+
+
+
+## Git kısaca 3 bölümden oluşur.
+
+![git1](https://github.com/SerhanBaymaz/GitGithub101/assets/102352030/6b0465c0-3478-494e-b77c-0173e498eba1)
+
+
+`git add ornek.txt`    :  Dosyayı çalışma klasöründen index’e atar. sahneye çıkarıyor ama repoya atmadı. Commit atılmasını bekliyor.(stage/index)
+
+`git commit -m “savepoint için oluşturulan mesaj”`
+
+`git commit ornek.txt` Dosyayı sahneden(index) alıp commit oluşturur.
+
+`.`    NOKTA tüm dosyalar anlamına gelir
+
+`git log` commitlerin kayıtlarını detaylı gösterir.
+
+`git log --oneline` commitlerin kayıtlarını tek satırda gösterir.
