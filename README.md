@@ -105,3 +105,14 @@ Versiyon kontrol sistemlerinde ustalara verilen odalara *dal (Branch)* ve bu i
 2-)Head’i yeni dala getirmek için: `git checkout yeni_dal`
 
 Birleştirme işlemine geçmeden önce iki dal arasındaki farkları nasıl inceleyebileceğimizi öğrenelim. Bunun için `git diff`komutunu kullanabiliriz.
+
+
+## 7) Git Merge (commitleri birleştirmek)
+
+Bunun için önce dalı nereye merge etmek istiyorsak o dala `git checkout`ile geçiş yapmamız gerekiyor.
+
+ `git merge`komutunu kullanarak `git merge eklemek_istediğimiz_commit` yaparak commiti ana commite ekliyoruz.
+
+![3](https://github.com/SerhanBaymaz/GitGithub101/assets/102352030/52286461-1a18-46de-a47e-7ae5664de74c)
+
+ 
