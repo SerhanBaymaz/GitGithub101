@@ -1,6 +1,6 @@
 # GitGithub101
 
-# 1) Basic TERMINAL commands
+# 1) Temel Terminal Komutları
 
 `ls` : list        bulunduğun klasördeki dosyaları listeler
 
