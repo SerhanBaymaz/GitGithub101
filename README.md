@@ -1,6 +1,6 @@
 # GitGithub101
 
-# Basic TERMINAL commands
+# 1) Basic TERMINAL commands
 
 `ls` : list        bulunduğun klasördeki dosyaları listeler
 
@@ -20,13 +20,13 @@
 
 
 
-# GIT nedir
+# 2) GIT nedir
 
 ![GitNedir](https://github.com/SerhanBaymaz/GitGithub101/assets/102352030/40d9656a-30b1-48e5-8905-7ebb9e87e1cb)
 
 
 
-# GIT terimleri
+# 3) GIT terimleri
 
 **Commit:** Oyunlardaki kayıt noktalarına benzer. Geri dönmek için kaydettiğimiz yer.
 
@@ -52,7 +52,7 @@
 
 
 
-## Git kısaca 3 bölümden oluşur.
+## 4) Git kısaca 3 bölümden oluşur.
 
 ![git1](https://github.com/SerhanBaymaz/GitGithub101/assets/102352030/6b0465c0-3478-494e-b77c-0173e498eba1)
 
@@ -68,3 +68,21 @@
 `git log` commitlerin kayıtlarını detaylı gösterir.
 
 `git log --oneline` commitlerin kayıtlarını tek satırda gösterir.
+
+
+
+## 5) Versiyonu seçmek:
+
+Head’i istenilen commit’e götürmek için ;
+
+![1](https://github.com/SerhanBaymaz/GitGithub101/assets/102352030/a8934ed1-1b41-4532-8c5c-514e32d03235)
+
+
+`git checkout hashNo` kullanılır.
+
+![2](https://github.com/SerhanBaymaz/GitGithub101/assets/102352030/7bb80779-6094-49a9-9063-7a4e0a6aa3f0)
+
+
+Ayrıca `git checkout branch_ismi` ile  istenilen branch’e(dal’a) geçilebilir.
+
+veya `git switch branch_ismi`  de kullanılır (yeni)
