@@ -26,3 +26,26 @@
 
 
 
+# GIT terimleri
+
+**Commit:** Oyunlardaki kayıt noktalarına benzer. Geri dönmek için kaydettiğimiz yer.
+
+**Status:** Dosyanın durumunu gösterir.
+
+**Init:** Klasörde Git'i etkinleştirir (Git başlatıcı).
+
+**Index veya Staging:** Henüz kaydedilmemiş, ancak kaydedilmeyi bekleyen değişikliklerin bulunduğu bölüm.
+
+**Hash:** Commitlerin (kayıt noktalarının) benzersiz tanımlayıcısı.
+
+**Head:** Geçerli commit'i veya geçerli branch'ı ifade eder.
+
+**Master:** Git'teki varsayılan branch. Depo başlatıldığında oluşturulur.
+
+**Stash:** Gizlemek veya saklamak anlamına gelir. git stash pop ile gizlemeden çıkarılır ve değişiklikler uygulanır.
+
+**Detached:** HEAD'in doğrudan bir commit'e, bir branch'a değil işaret ettiği durumu ifade eder.
+
+**Git Reset:** Commitleri geri almak veya iptal etmek için kullanılır.
+
+**Git Reset --hard:** Depoyu belirli bir commit'e sıfırlar, o commit'ten sonraki tüm değişiklikleri siler.
