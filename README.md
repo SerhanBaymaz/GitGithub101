@@ -86,3 +86,22 @@ Head’i istenilen commit’e götürmek için ;
 Ayrıca `git checkout branch_ismi` ile  istenilen branch’e(dal’a) geçilebilir.
 
 veya `git switch branch_ismi`  de kullanılır (yeni)
+
+
+## 6) Branch (Dal)    `gitbranch`
+
+Bir odayı inşa ettiğimizi düşünelim. Birimiz aynı oda içinde elektrik tesisatını hazırlarken diğerimiz parke döşüyor.Birisi duvarları boyarken diğeri kanepelerin konumunu söylüyor.
+
+**** Daha sonra yaptığımız işler birleşerek o yazılımı, ürünü ortaya çıkartıyor.
+
+Versiyon kontrol sistemlerinde ustalara verilen odalara *dal (Branch)* ve bu işleme de *dallanma (branching)* diyoruz. Bu dallar üzerinde de birleştirme (merging) gibi işlemler yapabiliriz.
+
+- parametresiz `git branch`  komutu yerelimizde kaç dal olduğunu ve hangi dalda bulunduğumuzu gösterir.
+- Hangi dalda olduğumuzu (Head) : asterix (*) işareti ile anlarız
+- Git için varsayılan ana dal, *master* olarak tanımlanır.
+
+1-)`git branch yeni_dal` ile yeni dal oluşturulur.
+
+2-)Head’i yeni dala getirmek için: `git checkout yeni_dal`
+
+Birleştirme işlemine geçmeden önce iki dal arasındaki farkları nasıl inceleyebileceğimizi öğrenelim. Bunun için `git diff`komutunu kullanabiliriz.
